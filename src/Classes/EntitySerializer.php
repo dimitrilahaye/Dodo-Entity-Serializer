@@ -11,7 +11,7 @@ namespace DodoPhpLab\DodoEntitySerializer\Classes;
 *
 * @author Dimitri Lahaye <contact@dimitrilahaye.net>
 * @license http://www.dbad-license.org/ DBAD Public License
-* @version 0.1.0-alpha
+* @version 0.1.1-alpha
 *
 * @package DodoPhpLab
 * @subpackage DodoEntitySerializer\Classes
