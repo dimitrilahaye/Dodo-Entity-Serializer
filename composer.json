@@ -1,6 +1,6 @@
 {
     "name": "dimitrilahaye/dodo-entity-serializer",
-    "description": "Dodo is back and he's very angry (and hungry.. huh)! With him, you can now convert some entity-like objects into json and some json into entity-like object! And he automatically manage objects array and array-like json. So cute :)",
+    "description": "Dodo is back and he's very angry (and hungry.. huh)! With him, you can now convert some entity-like objects into json and some json into entity-like object! And he automatically manages objects array and array-like json. So cute :)",
     "keywords": ["dodo", "entity", "serializer", "json"],
     "license": "proprietary",
     "homepage": "https://github.com/dimitrilahaye/Dodo-Entity-Serializer",

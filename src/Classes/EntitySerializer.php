@@ -62,6 +62,8 @@ class EntitySerializer {
     #############################################################################
 
     /**
+    * @internal
+    *
     * Returns a string formatted json from an object and his class's namespace.
     *
     * @param string $classNamespace the class name with namespace.
@@ -93,6 +95,8 @@ class EntitySerializer {
     }
 
     /**
+    * @internal
+    *
     * Get an object and property to return the value of this property from this object.
     *
     * @param mixed[] $object Object to evaluate.
@@ -120,6 +124,8 @@ class EntitySerializer {
     }
     
     /**
+    * @internal
+    *
     * Returns a json array constructed with the class's namespace and an array of objects.
     *
     * @param string $classNamespace the class name with namespace.
@@ -137,6 +143,8 @@ class EntitySerializer {
     }
 
     /**
+    * @internal
+    *
     * Returns an object constructed with the class's namespace and a string-formatted json object.
     *
     * @param string $classNamespace the class name with namespace.
@@ -172,6 +180,8 @@ class EntitySerializer {
     }
 
     /**
+    * @internal
+    *
     * Returns an array of objects constructed with the class's namespace and a json array.
     *
     * @param string $classNamespace the class name with namespace.
@@ -190,6 +200,8 @@ class EntitySerializer {
     }
 
     /**
+    * @internal
+    *
     * If param passed in argument ask for \DateTime value, then returns the value from \DateTime instance.
     *
     * @param \ReflectionParameter $reflectionParam the reflection parameter from a \ReflectionClass instance.
@@ -205,6 +217,8 @@ class EntitySerializer {
     }
 
     /**
+    * @internal
+    *
     * If param passed in argument ask for \DateTime value, then returns the value from \DateTime instance.
     *
     * @param string $propertyName the name of the property for what we want a \DateTime instance of the $rValue.
