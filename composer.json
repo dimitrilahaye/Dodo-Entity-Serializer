@@ -1,0 +1,33 @@
+{
+    "name": "dimitrilahaye/dodo-entity-serializer",
+    "description": "Dodo is back and he's very angry (and hungry.. huh)! With him, you can now convert some entity-like objects into json and some json into entity-like object! And he automatically manage objects array and array-like json. So cute :)",
+    "keywords": ["dodo", "entity", "serializer", "json"],
+    "license": "proprietary",
+    "homepage": "https://github.com/dimitrilahaye/Dodo-Entity-Serializer",
+    "support": {
+        "email": "contact@dimitrilahaye.net",
+        "issues": "https://github.com/dimitrilahaye/Dodo-Entity-Serializer/issues"
+    },
+    "authors": [{
+        "name": "Dimitri Lahaye",
+        "email": "contact@dimitrilahaye.net"
+    }],
+    "type": "project",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.*",
+        "phpunit/php-code-coverage": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DodoPhpLab\\DodoEntitySerializer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DodoPhpLab\\DodoEntitySerializerTest\\": "tests/"
+        }
+    }
+}
